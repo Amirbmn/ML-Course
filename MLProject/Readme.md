@@ -56,19 +56,7 @@ python
 # Clone and run the main script
 python housing_prediction.py
 
-# Or run the Jupyter notebook
-jupyter notebook housing.ipynb
-File Structure
-project/
-│
-├── Data/
-│   ├── train.csv          # Training dataset
-│   └── test.csv           # Test dataset
-│
-├── housing.ipynb          # Main Jupyter notebook
-├── submission.csv         # Model predictions
-└── README.md             # Project documentation
-📈 Results & Performance
+
 Best Model: Random Forest Regressor
 Validation R² Score: ~0.85+ (significantly improved from baseline)
 Key Insights:
